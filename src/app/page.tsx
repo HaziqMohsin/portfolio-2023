@@ -23,7 +23,6 @@ export default function Home() {
               Contact Me
             </button>
           </Link>
-          <div></div>
         </div>
       </div>
       <AboutMe />
@@ -41,7 +40,7 @@ export default function Home() {
                 Contact Me
               </button>
             </Link>
-            <Link href="/contactme">
+            <Link href="/projects">
               <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4">
                 Projects
               </button>
