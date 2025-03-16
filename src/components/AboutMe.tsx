@@ -19,7 +19,7 @@ const AboutMe = () => {
           width={300}
           height={300}
           alt="Picture of the author"
-          className="m-auto rounded-full bg-gradient-to-t from-gray-950"
+          className="m-auto rounded-full bg-linear-to-t from-gray-950"
         />
         {/* <div className="text-white absolute text-8xl text-center font-bold bottom-14 left-1/2 -translate-x-1/2">
       Haziq Mohsin
