@@ -43,7 +43,7 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 w-full py-24 px-4 pb-0">
         <div className="w-full p-10 flex flex-col gap-10">
           <h2 className="text-4xl md:text-7xl font-bold">
-            {`<> Hi! I Am Haziq Mohsin</>`}
+            {`<> Hi! I Am Adra Adeena/>`}
           </h2>
           <p className="max-w-sm">
             Developing web product for over <b>7 years</b> as frontend developer
