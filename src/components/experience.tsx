@@ -32,29 +32,45 @@ const Experience = (props: Props) => {
               <DrawerDescription className="overflow-auto px-4">
                 <ul className="list-disc list-inside mr-4 flex flex-col gap-2 mt-2">
                   <li>
-                    AI Chat Systems & Multilingual Support: Built AI-driven
-                    multilingual chat systems (including Arabic) for
-                    KnowledgeBot, Tatweer, Maaden, and PDO, leveraging Next.js,
-                    Tailwind CSS, SWR, Zustand, and Microsoft Azure AI. Features
-                    included document uploads, text-to-speech, speech-to-text,
-                    AI-powered answer extraction, and real-time analytics
-                    dashboards.
+                    <span className="font-bold">
+                      AI Chat Systems & Multilingual Support:
+                    </span>{" "}
+                    Built AI-driven multilingual chat systems (including Arabic)
+                    for <span className="font-bold">KnowledgeBot</span>,{" "}
+                    <span className="font-bold">Tatweer</span>,{" "}
+                    <span className="font-bold">Maaden</span>, and{" "}
+                    <span className="font-bold">PDO</span>, leveraging Next.js,
+                    <span className="font-bold">Tailwind CSS</span>,{" "}
+                    <span className="font-bold">SWR</span>,{" "}
+                    <span className="font-bold">Zustand</span>, and{" "}
+                    <span className="font-bold">Microsoft Azure AI</span>.
+                    Features included document uploads, text-to-speech,
+                    speech-to-text, AI-powered answer extraction, and real-time
+                    analytics dashboards.
                   </li>
                   <li>
-                    Web Application Development & UX Enhancement: Redesigned the
-                    Haram Company financial assistance application, improving
-                    the user experience for students in the Middle East.
+                    <span className="font-bold">
+                      Web Application Development & UX Enhancement:
+                    </span>{" "}
+                    Redesigned the Haram Company financial assistance
+                    application, improving the user experience for students in
+                    the Middle East.
                   </li>
                   <li>
-                    AI-Powered Candidate Matching: Developed a resume-based
-                    candidate recommendation system for Maaden and PDO,
+                    <span className="font-bold">
+                      AI-Powered Candidate Matching:
+                    </span>{" "}
+                    Developed a resume-based candidate recommendation system for
+                    <span className="font-bold">Maaden and PDO</span>,
                     integrating AI to match candidates with relevant skills.
                   </li>
                   <li>
-                    Enterprise IT Solutions: Created Sanofi Architect, a
-                    resource provisioning web application for Sanofi,
-                    integrating with ServiceNow for IT service management,
-                    modeled after Microsoft Azure.
+                    <span className="font-bold">Enterprise IT Solutions:</span>{" "}
+                    Created <span className="font-bold">Sanofi Architect</span>,
+                    a resource provisioning web application for{" "}
+                    <span className="font-bold">Sanofi</span>, integrating with{" "}
+                    <span className="font-bold">ServiceNow</span> for IT service
+                    management, modeled after Microsoft Azure.
                   </li>
                 </ul>
               </DrawerDescription>
@@ -77,40 +93,67 @@ const Experience = (props: Props) => {
               <DrawerDescription className="overflow-auto px-4">
                 <ul className="list-disc list-inside mr-4 flex flex-col gap-2 mt-2 overflow-auto">
                   <li>
-                    Frontend Development & State Management: Built and
-                    maintained consumer and B2B web applications using React.js
-                    (Next.js), Tailwind CSS, Context API, and Redux, ensuring
-                    full responsiveness and Progressive Web App (PWA) support.
+                    <span className="font-bold">
+                      Frontend Development & State Management:
+                    </span>{" "}
+                    Built and maintained consumer and B2B web applications using
+                    <span className="font-bold">React.js (Next.js)</span>,{" "}
+                    <span className="font-bold">Tailwind CSS</span>,{" "}
+                    <span className="font-bold">Context API</span>, and{" "}
+                    <span className="font-bold">Redux</span>, ensuring full
+                    responsiveness and Progressive Web App (PWA) support.
                     Developed adaptive UI solutions for various devices.
                   </li>
                   <li>
-                    Loyalty Program & Data Caching: Developed a loyalty program
-                    UI with React.js (Next.js), Tailwind CSS, and SWR for
+                    <span className="font-bold">
+                      Loyalty Program & Data Caching:
+                    </span>{" "}
+                    Developed a loyalty program UI with{" "}
+                    <span className="font-bold">React.js (Next.js)</span>,
+                    <span className="font-bold">Tailwind CSS, and SWR</span> for
                     efficient data caching.
                   </li>
                   <li>
-                    Project Leadership & Research: Led the web team by assigning
-                    tasks, monitoring progress, and conducting research based on
-                    project requirements.
+                    <span className="font-bold">
+                      Project Leadership & Research:
+                    </span>{" "}
+                    Led the web team by assigning tasks, monitoring progress,
+                    and conducting research based on project requirements.
                   </li>
                   <li>
-                    Analytics & Optimization: Implemented Google Analytics (GA4)
-                    and Google Tag Manager to track user behavior and improve
-                    performance.
+                    <span className="font-bold">Analytics & Optimization:</span>{" "}
+                    Implemented{" "}
+                    <span className="font-bold">
+                      Google Analytics (GA4) and Google Tag Manager
+                    </span>{" "}
+                    to track user behavior and improve performance.
                   </li>
                   <li>
-                    Backend & SaaS Development: Contributed to invoice software
-                    development using Node.js and AWS Lambda functions.
+                    <span className="font-bold">
+                      Backend & SaaS Development:
+                    </span>{" "}
+                    Contributed to invoice software development using{" "}
+                    <span className="font-bold">
+                      Node.js and AWS Lambda functions
+                    </span>
+                    .
                   </li>
                   <li>
-                    Cross-functional Collaboration: Worked closely with product
-                    managers, tech leads, and designers to ensure project
-                    alignment, feature implementation, and timeline adherence.
+                    <span className="font-bold">
+                      Cross-functional Collaboration:
+                    </span>{" "}
+                    Worked closely with product managers, tech leads, and
+                    designers to ensure project alignment, feature
+                    implementation, and timeline adherence.
                   </li>
                   <li>
-                    Accommodation System Development: Developed RuangKita, an
-                    accommodation system, using Next.js 13 and Zustand for state
-                    management.
+                    <span className="font-bold">
+                      Accommodation System Development:
+                    </span>{" "}
+                    Developed <span className="font-bold">RuangKita</span>, an
+                    accommodation system, using{" "}
+                    <span className="font-bold">Next.js 13 and Zustand</span>{" "}
+                    for state management.
                   </li>
                 </ul>
               </DrawerDescription>
@@ -129,11 +172,15 @@ const Experience = (props: Props) => {
               <h4>Customer Service</h4>
             </div>
           </DrawerTrigger>
-          <DrawerContent>
+          <DrawerContent className="mx-auto px-10">
             <DrawerHeader className="text-white">
-              <DrawerTitle>Are you absolutely sure?</DrawerTitle>
-              <DrawerDescription>
-                This action cannot be undone.
+              <DrawerTitle className="text-lg">Summary</DrawerTitle>
+              <DrawerDescription className="overflow-auto px-4">
+                <ul className="list-disc list-inside mr-4 flex flex-col gap-2 mt-2 overflow-auto">
+                  <li>
+                    Ensuring a positive experience for members and visitors.
+                  </li>
+                </ul>
               </DrawerDescription>
             </DrawerHeader>
           </DrawerContent>
@@ -150,11 +197,16 @@ const Experience = (props: Props) => {
               <h4>Technician Server</h4>
             </div>
           </DrawerTrigger>
-          <DrawerContent>
+          <DrawerContent className="mx-auto px-10">
             <DrawerHeader className="text-white">
-              <DrawerTitle>Summary</DrawerTitle>
-              <DrawerDescription>
-                Do reporting on server issue Maintaining and monitoring server
+              <DrawerTitle className="text-lg">Summary</DrawerTitle>
+              <DrawerDescription className="overflow-auto px-4">
+                <ul className="list-disc list-inside mr-4 flex flex-col gap-2 mt-2 overflow-auto">
+                  <li>
+                    Do reporting on server issue Maintaining and monitoring
+                    server
+                  </li>
+                </ul>
               </DrawerDescription>
             </DrawerHeader>
           </DrawerContent>
