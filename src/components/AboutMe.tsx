@@ -7,12 +7,6 @@ import { motion } from "framer-motion";
 const AboutMe = () => {
   return (
     <div className="grid grid-cols-1 justify-center items-center w-full relative bg-gray-950">
-      {/* <div
-    className={`absolute inset-x-0 md:top-10 xl:top-40 min-h-0 pl-20 py-24 flex overflow-hidden z-0`}
-  >
-    <span className="block bg-[#54246D] w-72 h-72 rounded-full mix-blend-multiply filter blur-3xl opacity-100 lg:w-96 lg:h-96"></span>
-    <span className="block bg-[#FFC90A] w-72 h-72 -ml-20 mt-40 rounded-full mix-blend-multiply filter blur-3xl opacity-100 lg:w-96 lg:h-96 nc-animation-delay-2000"></span>
-  </div> */}
       <div className="relative p-10 h-screen flex items-center">
         <Image
           src="/subject-1.png"
@@ -21,9 +15,6 @@ const AboutMe = () => {
           alt="Picture of the author"
           className="m-auto rounded-full bg-linear-to-t from-gray-950"
         />
-        {/* <div className="text-white absolute text-8xl text-center font-bold bottom-14 left-1/2 -translate-x-1/2">
-      Haziq Mohsin
-    </div> */}
       </div>
       <div className="grid grid-cols-3 justify-center gap-3 absolute w-full p-4">
         <MotionDiv x={0} y={0} rotate={10} xTap={440} yTap={200}>
@@ -78,15 +69,6 @@ const MotionDiv = ({ children, x, y, rotate, xTap, yTap }: Props) => {
         color: "#000",
         y: -10,
       }}
-      //   animate={{
-      //     x: x,
-      //     y: y,
-      //     rotate: rotate,
-      //     scale: 0.4,
-      //     position: "absolute",
-      //   }}
-      //   whileTap={{ scale: 1, x: xTap, y: yTap, rotate: 0 }}
-      //   initial={false}
       className="p-4 text-white text-center max-w-xl m-auto border border-solid border-gray-400 rounded-lg cursor-pointer"
     >
       {children}

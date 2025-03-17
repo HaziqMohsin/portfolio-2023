@@ -1,16 +1,19 @@
 import AboutMe from "@/components/AboutMe";
 import Image from "next/image";
 import Link from "next/link";
+import { BorderBeam } from "@/components/magicui/border-beam";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between gap-4">
-      <div className="p-4 md:p-24 w-full">
-        <div className="bg-gray-950 flex flex-col gap-3 items-center rounded-lg p-10 w-full">
-          <h1 className="text-white font-bold text-5xl text-center">
+      <div className="p-4 md:p-24 w-full min-h-svh h-full flex justify-center items-center">
+        <div className=" flex flex-col gap-3 items-center rounded-lg p-10 w-full relative overflow-hidden">
+          <h1 className="text-gray-950 font-bold text-5xl text-center">
             Frontend Web Developer
           </h1>
-          <h2 className="text-white font-bold text-5xl">Based on Malaysia</h2>
+          <h2 className="text-gray-950 font-bold text-5xl">
+            Based on Malaysia
+          </h2>
           <p className="text-gray-400 text-md text-center max-w-3xl mx-auto my-4">
             I&apos;m all about crafting stunning UI designs and bringing them to
             life with my expertise in Reactjs, Nextjs, Tailwindcss, and Nodejs.
@@ -18,11 +21,22 @@ export default function Home() {
             Let&apos;s collaborate and create some seriously cool web
             experiences together!
           </p>
-          <Link href="/contactme">
-            <button className="bg-white text-black px-4 py-2 rounded-lg my-4">
+          {/* <Link href="/contactme">
+            <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4">
               Contact Me
             </button>
-          </Link>
+          </Link> */}
+          <BorderBeam
+            duration={6}
+            size={400}
+            className="from-transparent via-gray-950 to-transparent"
+          />
+          <BorderBeam
+            duration={6}
+            delay={3}
+            size={400}
+            className="from-transparent via-gray-950 to-transparent"
+          />
         </div>
       </div>
       <AboutMe />
