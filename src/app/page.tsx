@@ -50,7 +50,11 @@ export default function Home() {
             {`<> Hi! I Am Haziq Mohsin </>`}
           </h2>
           <p className="max-w-sm">
-            Developing web product for over <b>7 years</b> as frontend developer
+            I am managing a web team, and work closely with engineering teams.
+            Also anticipating working with the back-end team which boosted my
+            motivation to learn more about the back-end environment. I would
+            welcome the chance to provide further insight into my technical
+            abilities and personal attributes.
           </p>
           <div className="flex flex-row gap-3">
             <Link href="/contactme">

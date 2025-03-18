@@ -212,41 +212,6 @@ const Experience = (props: Props) => {
           </DrawerContent>
         </Drawer>
       </div>
-
-      {/* <div className="flex flex-col gap-4">
-        <div className="text-white">
-          <h2 className="text-xl">
-            Mobiz Inc. SDN BHD{" "}
-            <span className="text-xs text-gray-400 my-2">2023 - 2025</span>
-          </h2>
-          <h6 className="text-sm">IT solution</h6>
-          <h4>Frontend Developer</h4>
-        </div>
-        <div className="text-white">
-          <h2 className="text-xl">
-            TheLorry Online{" "}
-            <span className="text-xs text-gray-400">2016 - 2023</span>
-          </h2>
-          <h6 className="text-sm">Technology & Logistics</h6>
-          <h4>Frontend Developer</h4>
-        </div>
-        <div className="text-white">
-          <h2 className="text-xl">
-            Celebrity Fitness{" "}
-            <span className="text-xs text-gray-400">Jan 2014 - Jun 2014</span>
-          </h2>
-          <h6 className="text-sm">Gym and Sport</h6>
-          <h4>Customer Service</h4>
-        </div>
-        <div className="text-white">
-          <h2 className="text-xl">
-            Pacific Link Telecom{" "}
-            <span className="text-xs text-gray-400">Jan 2012 - Jun 2012</span>
-          </h2>
-          <h6 className="text-sm">Server</h6>
-          <h4>Technician Server</h4>
-        </div>
-      </div> */}
     </div>
   );
 };
