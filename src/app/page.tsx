@@ -23,11 +23,6 @@ export default function Home() {
             Let&apos;s collaborate and create some seriously cool web
             experiences together!
           </p>
-          {/* <Link href="/contactme">
-            <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4">
-              Contact Me
-            </button>
-          </Link> */}
           <BorderBeam
             duration={6}
             size={400}
@@ -57,13 +52,13 @@ export default function Home() {
             abilities and personal attributes.
           </p>
           <div className="flex flex-row gap-3">
-            <Link href="/contactme">
+            {/* <Link href="/contactme">
               <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4">
                 Contact Me
               </button>
-            </Link>
-            <Link href="/projects">
-              <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4">
+            </Link> */}
+            <Link target="_blank" href="https://github.com/HaziqMohsin">
+              <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4 cursor-pointer">
                 Projects
               </button>
             </Link>
