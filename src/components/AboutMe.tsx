@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useMotionValue, useAnimation } from "framer-motion";
 
 const AboutMe = () => {
   return (
@@ -29,8 +29,8 @@ const AboutMe = () => {
         </MotionDiv>
         <MotionDiv>Figma and me are close friends</MotionDiv>
         <MotionDiv>
-          I love Prisma for the first place, but drizzle make me cheat on my
-          love
+          I love Prisma for the first place, then i try drizzle. But in 2025,
+          supabase is pretty good
         </MotionDiv>
         <MotionDiv>Flex or grid? I still need both</MotionDiv>
         <MotionDiv>Javascript and Typescript. Bin and Recycle Bin</MotionDiv>
@@ -48,16 +48,34 @@ export default AboutMe;
 
 type Props = {
   children: React.ReactNode;
-  x?: string | number;
-  y?: string | number;
+
   rotate?: string | number;
   xTap?: string | number;
   yTap?: string | number;
 };
 
-const MotionDiv = ({ children, x, y, rotate, xTap, yTap }: Props) => {
+const MotionDiv = ({ children, rotate, xTap, yTap }: Props) => {
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const controls = useAnimation();
+
+  useEffect(() => {
+    let angle = 0;
+    const radius = 10 + Math.random() * 10; // Random radius between 10–20px
+    const speed = 0.05 + Math.random() * 0.05; // Random speed
+
+    const interval = setInterval(() => {
+      angle += speed;
+      x.set(Math.cos(angle) * radius);
+      y.set(Math.sin(angle) * radius);
+    }, 16); // ~60fps
+
+    return () => clearInterval(interval);
+  }, [x, y]);
+
   return (
     <motion.div
+      style={{ x, y }}
       whileHover={{
         scale: 1.05,
         backgroundColor: "#fff",
