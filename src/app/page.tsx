@@ -21,7 +21,7 @@ export default function Home() {
             life with my expertise in Reactjs, Nextjs, Tailwindcss, and Nodejs.
             I thrive on solving challenges and constantly expanding my skills.
             Let&apos;s collaborate and create some seriously cool web
-            experiences together!
+            experiences togethers
           </p>
           <BorderBeam
             duration={6}
