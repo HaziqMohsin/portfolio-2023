@@ -52,11 +52,6 @@ export default function Home() {
             abilities and personal attributes.
           </p>
           <div className="flex flex-row gap-3">
-            {/* <Link href="/contactme">
-              <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4">
-                Contact Me
-              </button>
-            </Link> */}
             <Link target="_blank" href="https://github.com/HaziqMohsin">
               <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4 cursor-pointer">
                 Projects
