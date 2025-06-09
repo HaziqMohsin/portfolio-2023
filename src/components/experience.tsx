@@ -12,14 +12,14 @@ type Props = {};
 
 const Experience = (props: Props) => {
   return (
-    <div className="flex flex-col justify-center items-center w-full relative bg-gray-950 px-4 py-14">
-      <h1 className="text-white text-center text-5xl mb-5 font-bold">
+    <div className="flex flex-col justify-center items-center w-full relative bg-gray-950 dark:bg-white px-4 py-14">
+      <h1 className="text-white dark:text-gray-950 text-center text-5xl mb-5 font-bold">
         Experience
       </h1>
       <div className="flex gap-10 mt-9">
         <Drawer>
           <DrawerTrigger className="cursor-pointer overflow-hidden relative p-4 rounded-lg border border-solid border-gray-300 rounded-t-4xl rounded-b-none">
-            <div className="text-white h-48 justify-center items-center flex flex-col">
+            <div className="text-white dark:text-gray-950 h-48 justify-center items-center flex flex-col">
               <h2 className="text-xl font-bold">Mobiz Inc. SDN BHD </h2>
               <h6 className="text-sm">IT solution</h6>
               <span className="text-xs text-gray-400 my-2">2023 - 2025</span>
@@ -80,7 +80,7 @@ const Experience = (props: Props) => {
 
         <Drawer>
           <DrawerTrigger className="cursor-pointer overflow-hidden relative p-4 rounded-lg border border-solid border-gray-300 rounded-t-full rounded-b-none">
-            <div className="text-white h-48 justify-center items-center flex flex-col">
+            <div className="text-white dark:text-gray-950 h-48 justify-center items-center flex flex-col">
               <h2 className="text-xl font-bold">TheLorry Online</h2>
               <h6 className="text-sm">Technology & Logistics</h6>
               <span className="text-xs text-gray-400 my-2">2016 - 2023</span>
@@ -163,7 +163,7 @@ const Experience = (props: Props) => {
 
         <Drawer>
           <DrawerTrigger className="cursor-pointer overflow-hidden relative p-4 rounded-lg border border-solid border-gray-300 rounded-t-4xl rounded-b-none">
-            <div className="text-white h-48 justify-center items-center flex flex-col">
+            <div className="text-white dark:text-gray-950 h-48 justify-center items-center flex flex-col">
               <h2 className="text-xl font-bold">Celebrity Fitness</h2>
               <h6 className="text-sm">Gym and Sport</h6>
               <span className="text-xs text-gray-400 my-2">
@@ -188,7 +188,7 @@ const Experience = (props: Props) => {
 
         <Drawer>
           <DrawerTrigger className="cursor-pointer overflow-hidden relative p-4 rounded-lg border border-solid border-gray-300 rounded-t-none rounded-b-none">
-            <div className="text-white h-48 justify-center items-center flex flex-col">
+            <div className="text-white dark:text-gray-950 h-48 justify-center items-center flex flex-col">
               <h2 className="text-xl font-bold">Pacific Link Telecom</h2>
               <h6 className="text-sm">Server</h6>
               <span className="text-xs text-gray-400 my-2">

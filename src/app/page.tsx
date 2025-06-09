@@ -10,10 +10,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between gap-4">
       <div className="p-4 md:p-24 w-full min-h-svh h-full flex justify-center items-center">
         <div className=" flex flex-col gap-3 items-center rounded-lg p-10 w-full relative overflow-hidden">
-          <h1 className="text-gray-950 font-bold text-5xl text-center">
+          <h1 className="text-gray-950 dark:text-white font-bold text-5xl text-center">
             Frontend Web Developer
           </h1>
-          <h2 className="text-gray-950 font-bold text-5xl">
+          <h2 className="text-gray-950 dark:text-white font-bold text-5xl">
             Based on Malaysia
           </h2>
           <p className="text-gray-400 text-md text-center max-w-3xl mx-auto my-4">
@@ -26,13 +26,13 @@ export default function Home() {
           <BorderBeam
             duration={6}
             size={400}
-            className="from-transparent via-gray-950 to-transparent"
+            className="from-transparent via-gray-950 dark:via-white to-transparent"
           />
           <BorderBeam
             duration={6}
             delay={3}
             size={400}
-            className="from-transparent via-gray-950 to-transparent"
+            className="from-transparent via-gray-950 dark:via-white to-transparent"
           />
         </div>
       </div>

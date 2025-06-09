@@ -6,14 +6,14 @@ import { motion, useMotionValue, useAnimation } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <div className="grid grid-cols-1 justify-center items-center w-full relative bg-gray-950">
+    <div className="grid grid-cols-1 justify-center items-center w-full relative bg-gray-950 dark:bg-white">
       <div className="relative p-10 h-screen flex items-center">
         <Image
           src="/subject-1.png"
           width={300}
           height={300}
           alt="Picture of the author"
-          className="m-auto rounded-full bg-linear-to-t from-gray-950"
+          className="m-auto rounded-full bg-linear-to-t from-gray-950 dark:from-white"
         />
       </div>
       <div className="grid grid-cols-3 justify-center gap-3 absolute w-full p-4">
@@ -82,7 +82,7 @@ const MotionDiv = ({ children, rotate, xTap, yTap }: Props) => {
         color: "#000",
         y: -10,
       }}
-      className="p-4 text-white text-center max-w-xl m-auto border border-solid border-gray-400 rounded-lg cursor-pointer"
+      className="p-4 text-white dark:text-gray-950 text-center max-w-xl m-auto border border-solid border-gray-400 rounded-lg cursor-pointer"
     >
       {children}
     </motion.div>
