@@ -53,13 +53,32 @@ export default function Home() {
           <h2 className="text-4xl md:text-7xl font-bold text-white dark:text-gray-950">
             {`<> Hi! I Am Haziq Mohsin </>`}
           </h2>
-          <p className="max-w-sm text-white dark:text-gray-950">
-            I am managing a web team, and work closely with engineering teams.
-            Also anticipating working with the back-end team which boosted my
-            motivation to learn more about the back-end environment. I would
-            welcome the chance to provide further insight into my technical
-            abilities and personal attributes.
-          </p>
+          <div className="grid grid-cols-2 justify-start items-center gap-4">
+            <p className="max-w-sm text-white dark:text-gray-950">
+              I am managing a web team, and work closely with engineering teams.
+              Also anticipating working with the back-end team which boosted my
+              motivation to learn more about the back-end environment. I would
+              welcome the chance to provide further insight into my technical
+              abilities and personal attributes.
+            </p>
+            <div
+              className="badge-base LI-profile-badge"
+              data-locale="en_US"
+              data-size="medium"
+              data-theme="dark"
+              data-type="VERTICAL"
+              data-vanity="mhaziqmohsin"
+              data-version="v1"
+            >
+              <a
+                className="badge-base__link LI-simple-link"
+                href="https://my.linkedin.com/in/mhaziqmohsin?trk=profile-badge"
+              >
+                Haziq Mohsin
+              </a>
+            </div>
+          </div>
+
           <div className="flex flex-row gap-3">
             <Link target="_blank" href="https://github.com/HaziqMohsin">
               <button className="bg-gray-950 text-white px-4 py-2 rounded-lg my-4 cursor-pointer">
