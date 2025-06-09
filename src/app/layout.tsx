@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggleThemes } from "@/components/nav-theme";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,12 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
       </body>
+      <Script
+        src="https://platform.linkedin.com/badges/js/profile.js"
+        async
+        defer
+        type="text/javascript"
+      />
     </html>
   );
 }
