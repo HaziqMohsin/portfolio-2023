@@ -4,6 +4,7 @@ import Education from "@/components/education";
 import Image from "next/image";
 import Link from "next/link";
 import { BorderBeam } from "@/components/magicui/border-beam";
+import TreeFiberPage from "@/components/tree";
 
 export default function Home() {
   return (
@@ -39,12 +40,20 @@ export default function Home() {
       <Experience />
       <Education />
       <AboutMe />
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full py-24 px-4 pb-0">
+      <div className="grid grid-cols-1 gap-4 py-14 h-dvh">
+        <h1 className="text-gray-950 dark:text-white font-bold text-5xl text-center mb-5">
+          Projects
+        </h1>
+        <div className="w-3xl h-[100%]">
+          <TreeFiberPage />
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full py-24 px-4 pb-0 bg-gray-950 dark:bg-white">
         <div className="w-full p-10 flex flex-col gap-10">
-          <h2 className="text-4xl md:text-7xl font-bold">
+          <h2 className="text-4xl md:text-7xl font-bold text-white dark:text-gray-950">
             {`<> Hi! I Am Haziq Mohsin </>`}
           </h2>
-          <p className="max-w-sm">
+          <p className="max-w-sm text-white dark:text-gray-950">
             I am managing a web team, and work closely with engineering teams.
             Also anticipating working with the back-end team which boosted my
             motivation to learn more about the back-end environment. I would
