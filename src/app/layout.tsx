@@ -30,13 +30,20 @@ export default function RootLayout({
           </div>
           {children}
         </ThemeProvider>
+         {/* <Script id="chatbot-config" strategy="beforeInteractive">
+          {`
+            window.marinaIP = 'https://uat.hlb.com.my/ai-chatbot/bcb';
+            window.userDataString = '{chatSessionID: "123123123", isLoginInFlag: "false", SourceChat: "BCB"}';
+          `}
+        </Script> */}
+
+        {/* Load chatbot script as module */}
+        {/* <Script
+          src="https://hlb-gt-aicoe-watson-uat.web.app/Qchat.js"
+          type="module"
+          strategy="afterInteractive"
+        /> */}
       </body>
-      <Script
-        src="https://platform.linkedin.com/badges/js/profile.js"
-        async
-        defer
-        type="text/javascript"
-      />
     </html>
   );
 }

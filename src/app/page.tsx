@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import TreeFiberPage from "@/components/tree";
+import StudyTable from "@/components/study-table";
 
 export default function Home() {
   return (
@@ -41,11 +42,12 @@ export default function Home() {
       <Education />
       <AboutMe />
       <div className="grid grid-cols-1 gap-4 py-14 h-dvh">
-        <h1 className="text-gray-950 dark:text-white font-bold text-5xl text-center mb-5">
+        {/* <h1 className="text-gray-950 dark:text-white font-bold text-5xl text-center mb-5">
           Projects
-        </h1>
+        </h1> */}
         <div className="w-3xl h-[100%]">
-          <TreeFiberPage />
+          {/* <TreeFiberPage /> */}
+          <StudyTable/>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 w-full py-24 px-4 pb-0 bg-gray-950 dark:bg-white">
